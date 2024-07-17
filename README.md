@@ -20,6 +20,17 @@ Datasets: The raw and processed datasets used for model training and evaluation.
 - Performance metrics: Accuracy, Precision, Recall, F1-Score, ROC-AUC
 - Feature importance analysis
 
-4. ### Visualization:
+
+# Results
+The Random Forest model achieved a high accuracy of approximately 94% on the test data. The Power BI dashboard provides interactive visualizations to explore the results and gain insights into the factors influencing customer churn.
 - Power BI dashboard to present insights and results
 ![image](https://github.com/user-attachments/assets/2859c0c9-4de5-42a8-8761-5bbc681a44f2)
+
+# References
+Please refer to the research publication for detailed references and a comprehensive literature review.
+
+# Contributors
+- Shreya Lodha
+- Satyam Vishwakarma
+- Sankarshan Savanur
+- Prof. Chaitanya Garware
