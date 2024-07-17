@@ -1,0 +1,92 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churn Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            text-align: center;
+        }
+        input[type="file"] {
+            display: none;
+        }
+        .file-upload {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .file-upload:hover {
+            background-color: #0056b3;
+        }
+        .submit-btn {
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .submit-btn:hover {
+            background-color: #218838;
+        }
+        .prediction-text {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 18px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Churn Prediction</h2>
+        <form action="/predict" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" id="fileInput" accept=".csv"><br><br>
+            <label for="fileInput" class="file-upload">Select File</label>
+            <input type="submit" value="Predict" class="submit-btn">
+        </form>
+        <div class="prediction-text">
+            {% if prediction_text %}
+                <h3>{{ prediction_text }}</h3>
+            {% endif %}
+        </div>
+    </div>
+    <div class="tips-container">
+        <h2>Reduce Customer Churn</h2>
+        <ul>
+            <li><a href="https://www.example.com/tip1" target="_blank">Tip 1: Provide excellent customer service</a></li>
+            <li><a href="https://www.example.com/tip2" target="_blank">Tip 2: Offer loyalty rewards</a></li>
+            <li><a href="https://www.example.com/tip3" target="_blank">Tip 3: Improve product features</a></li>
+            <li><a href="https://www.example.com/tip4" target="_blank">Tip 4: Engage with customers through social media</a></li>
+        </ul>
+        <img src="churn_reduction.jpg" alt="Churn Reduction Strategies" width="600">
+    </div>
+</body>
+</html>
+
+
+
