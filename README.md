@@ -27,7 +27,8 @@ The Random Forest model achieved a high accuracy of approximately 94% on the tes
 ![image](https://github.com/user-attachments/assets/2859c0c9-4de5-42a8-8761-5bbc681a44f2)
 
 # References
-Please refer to the research publication for detailed references and a comprehensive literature review.
+Please refer to the [research publication]( https://www.ijnrd.org/viewpaperforall?paper=IJNRD2405769) for detailed references and a comprehensive literature review.
+
 
 # Contributors
 - Shreya Lodha
