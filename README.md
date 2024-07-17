@@ -31,7 +31,7 @@ Please refer to the [research publication]( https://www.ijnrd.org/viewpaperforal
 
 
 # Contributors
+- Sankarshan Savanur
 - Shreya Lodha
 - Satyam Vishwakarma
-- Sankarshan Savanur
 - Prof. Chaitanya Garware
